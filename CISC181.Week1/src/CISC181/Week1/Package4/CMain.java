@@ -27,6 +27,9 @@ public class CMain {
 		long l = 1;
 		float f = 1;
 		double d = 1;
+		
+		char c = 'A';
+		
 
 	}
 

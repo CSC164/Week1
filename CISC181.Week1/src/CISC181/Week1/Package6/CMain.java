@@ -40,7 +40,7 @@ public class CMain {
 		System.out.print("Enter a number between 0 and 10: ");
 		int iNumber = input.nextInt();
 
-		if (iNumber > 5)
+		if (iNumber > 5);
 			System.out.println("Number Greater Than 5");
 		
 
@@ -77,12 +77,21 @@ public class CMain {
 
 	}
 
-	private static void SimpleBoolIf(Boolean b) {
+	private static void SimpleBoolIf(boolean b) {
 		
 		if (b)
 			System.out.println("Item is true");
 		else if (!b)
 			System.out.println("Item is false");
+	}
+	
+	public static boolean SimpleBoolean (boolean b)
+	{
+		boolean bReturn = false;
+		
+		if (b) 
+			bReturn = true;
+		return bReturn;
 	}
 
 }
